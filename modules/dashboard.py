@@ -321,9 +321,6 @@ class ValidationDashboard:
         )
         
         return fig
-
-
-# CONTINUATION OF dashboard.py - ADD THIS TO THE END OF PREVIOUS FILE
     
     def generate_pdf_report(self, stats, filename="Laporan_Validasi_KK.pdf"):
         """
@@ -744,6 +741,3 @@ class ValidationDashboard:
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                 use_container_width=True
             )
-
-
-
